@@ -1,0 +1,78 @@
+h1,p {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: blue;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover {
+    color: rgb(33, 178, 42);
+}
+footer {
+    text-align: center;
+}
+a:active {
+    color: brown;
+}
+body {
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div {
+    border: brown;
+}
+html {
+    background-repeat: auto;
+    color: black;
+    border-image: url(imagenes/la-nevería.webp);
+}
+h1, p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    color: rgb(33, 178, 42);
+}
+
+a:active {
+    color: brown;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0 auto; 
+    max-width: 1200px; 
+}
+
+div {
+    border: 1px solid brown; 
+}
+
+html {
+    background-repeat: no-repeat; /* 'auto' no es un valor válido para background-repeat */
+    background-image: url('imagenes/la-nevería.webp'); /* Estaba mal usada con border-image */
+    background-size: cover; /* Opcional, para que cubra toda la pantalla */
+    color: black;
+}
